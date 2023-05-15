@@ -6,32 +6,33 @@
     box-sizing: border-box;
 }
 
-body{
-
+body {
     font-family: 'Kavoon', cursive;
-
 }
 
-.container{
+.caixa{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row ;
+    flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 200px;
+    gap: 10px;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 30px;
-    
 }
 
 .conteudo h1{
     width: 530px;
     text-align: center;
-    line-height: 64px ;
+    justify-content: center;
+    line-height: 70px ;
 }
 
 .conteudo button{
@@ -50,4 +51,8 @@ body{
     background-color: #8b3601;
     color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixa img{
+    width: 300px;
 }
